@@ -7,8 +7,12 @@ dictionary = [
 # list 'dictionary'
 
 
+
 def add_word(hun_word, eng_word):
-    pass
+    dictionary.append({hun_word, eng_word})
+    print(dictionary)
+    
+add_word("barack", "peach")
 
 # Implement these methods. They should return the translation of the given
 # word form the list 'dictionary'
