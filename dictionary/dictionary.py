@@ -16,15 +16,7 @@ add_word("barack", "peach")
 # word form the list 'dictionary'
 
 def translate_to_hun(eng_word):
-
-
-translate_to_hun("apple")
-
+pass
 
 def translate_to_eng(hun_word):
-    pass
-
-
-    # for key, value in dictionary.items():
-    #     if eng_word == value:
-    #         print(key)
+pass
