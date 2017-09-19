@@ -33,4 +33,4 @@ The application is accepted if:
 
 ###  What is the difference between id and class in CSS? [2p]
 #### Your answer:
-[add your answer here]
+ID selectors are used for selecting and formatting a single element in a html file, while class selectors are used for selecting multiple elements that share similar or same attributes. A specific ID value can be used only once in a file, for only styling one element (like a header for example, that you have only one of), whereas a specific class value can be given to more than one elements (like paragraphs that you want to share the same features).
