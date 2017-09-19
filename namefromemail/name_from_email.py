@@ -5,4 +5,13 @@
 # example: "elek.viz@exam.com" for this input the output should be: "Viz Elek"
 # accents does not matter
 
+
+
+def name_from_email(email):
+    full_name = email.rsplit('@')[0]
+    last_name = full_name.split('.')[1]
+    first_name = full_name.split('.')[0]
+    name = (last_name + " " + first_name)
+    print(name)
+
 print(name_from_email("elek.viz@exam.com"))
